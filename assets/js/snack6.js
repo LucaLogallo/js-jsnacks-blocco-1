@@ -18,8 +18,13 @@ for(var i=0; i<j; i++ ){
 }
 
 var arrNumeriPow = [];
+var somma = 0 ;
 
 for(var i=0; i<x; i++){
   arrNumeriPow[i] = Math.pow(arrNumeri[i],2);
-  console.log("nuemro "+arrNumeri[i]+" numero elevato al quadrato: "+arrNumeriPow[i]);
+  somma += arrNumeriPow[i];
+  console.log("numero "+arrNumeri[i]+" numero elevato al quadrato: "+arrNumeriPow[i]);
 }
+
+console.log(somma);
+
